@@ -82,3 +82,18 @@
     display: block;
 }
 
+
+#category-select {
+    position: relative;
+}
+
+#options-view-button {
+    all: unset;
+
+    position: absolute;
+    inset: 0;
+
+    cursor: pointer;
+    z-index: 3;
+    
+}
