@@ -62,3 +62,23 @@
     display: none;
 }
 
+
+#options-view-button:focus + #select-button ,
+#options-view-button:checked + #select-button {
+    outline: 1px solid #a881e6;
+}
+
+
+#category-select:has(#options-view-button:checked) label ,#options-view-button:checked + #select-button #chevrons {
+  color:#a881e6;
+}
+
+#options-view-button:checked + #select-button #chevrons [data-lucide="chevron-down"] {
+    display: none;
+}
+
+
+#options-view-button:checked + #select-button #chevrons [data-lucide="chevron-up"] {
+    display: block;
+}
+
