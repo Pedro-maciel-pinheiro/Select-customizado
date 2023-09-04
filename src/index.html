@@ -7,93 +7,84 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-          <!-- //////  category - button ///// -->
+    <!-- //////  category - button ///// -->
     <div class="select">
       <div id="category-select">
         <label for="options-view-button">Categoria</label>
         <input type="checkbox" id="options-view-button" />
 
         <div id="select-button">
-          <div id="select-value">Selecione a Categoria</div>
+          <div id="selected-value">Selecione a Categoria</div>
 
           <div id="chevrons">
             <i data-lucide="chevron-down"></i>
             <i data-lucide="chevron-up"></i>
           </div>
         </div>
-        <!-- ////// Options-Menu //////////    -->
-        <ul id="options" >
-                  <!-- /// 0  /// -->
-          <li class="option">
-            <input
-              type="radio"
-              name="category"
-              value="bakery"
-              data-lucide="Padaria"
-            />
-            <i data-lucide="sandwich"></i>
-            <span class="label">Padaria</span>
-            <i data-lucide="check"></i>
-          </li>
-                  <!-- /// 1  /// -->
-          <li class="option">
-            <input
-              type="radio"
-              name="category"
-              value="vegetable"
-              data-lucide="Legume"
-            />
-            <i data-lucide="carrot"></i>
-            <span class="label">Legume</span>
-            <i data-lucide="check"></i>
-          </li>
-                  <!-- /// 2  /// -->
-          <li class="option">
-            <input
-              type="radio"
-              name="category"
-              value="meat"
-              data-lucide="Carne"
-            />
-            <i data-lucide="beef"></i>
-            <span class="label">Carne</span>
-            <i data-lucide="check"></i>
-          </li>
-                    <!-- /// 3  /// -->
-          <li class="option">
-            <input
-              type="radio"
-              name="category"
-              value="Fruit"
-              data-lucide="Fruta"
-            />
-            <i data-lucide="apple"></i>
-            <span class="label">Frutas</span>
-            <i data-lucide="check"></i>
-          </li>
-                     <!-- /// 4 /// -->
-          <li class="option">
-            <input
-              type="radio"
-              name="category"
-              value="drink"
-              data-lucide="Bebida"
-            />
-            <i data-lucide="milk"></i>
-            <span class="label">Bebidas</span>
-            <i data-lucide="check"></i>
-          </li>
-
-        </ul>
       </div>
+
+      <!-- ////// Options-Menu //////////    -->
+      <ul id="options" class="mystyle">
+        <!-- /// 0  /// -->
+        <li class="option">
+          <input
+            type="radio"
+            name="category"
+            value="bakery"
+            data-label="Padaria"
+          />
+          <i data-lucide="sandwich"></i>
+          <span class="label">Padaria</span>
+          <i data-lucide="check"></i>
+        </li>
+        <!-- /// 1  /// -->
+        <li class="option">
+          <input
+            type="radio"
+            name="category"
+            value="vegetable"
+            data-label="Legume"
+          />
+          <i data-lucide="carrot"></i>
+          <span class="label">Legume</span>
+          <i data-lucide="check"></i>
+        </li>
+        <!-- /// 2  /// -->
+        <li class="option">
+          <input type="radio" name="category" value="meat" data-label="Carne" />
+          <i data-lucide="beef"></i>
+          <span class="label">Carne</span>
+          <i data-lucide="check"></i>
+        </li>
+        <!-- /// 3  /// -->
+        <li class="option">
+          <input
+            type="radio"
+            name="category"
+            value="Fruit"
+            data-label="Frutas"
+          />
+          <i data-lucide="apple"></i>
+          <span class="label">Frutas</span>
+          <i data-lucide="check"></i>
+        </li>
+        <!-- /// 4 /// -->
+        <li class="option">
+          <input
+            type="radio"
+            name="category"
+            value="drink"
+            data-label="Bebidas"
+          />
+          <i data-lucide="milk"></i>
+          <span class="label">Bebidas</span>
+          <i data-lucide="check"></i>
+        </li>
+      </ul>
     </div>
   </body>
 
-
-                     <!-- //// lucide-icon //// -->
-  <script src="https://unpkg.com/lucide@latest"></script>
-                    <!-- //// lucide-icon //// -->
-
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
 
   <script src="./main.js"></script>
 </html>
