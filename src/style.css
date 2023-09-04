@@ -195,7 +195,7 @@
 }
 
 .select:has(.option input:checked) #selected-value {
-  color: red;
+  color: rgb(255, 255, 255);
 }
 
 
